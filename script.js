@@ -25,10 +25,18 @@ g = 'Arun ';
 console.log(g.repeat(3));
 
 //Challenge 7: Store the string as "I am a Kalvian" in a variable and convert the string into array and print the array in console.
-
+h = 'I am a Kalvian';
+console.log(h.split(' '));
 
 // Challenge 8: Store the given string "Time and Tide wait for none" in a variable and using indexOf method find the index of "Ti" and print the same in console.
+i = 'Time and Tide wait for none';
+console.log(i.indexOf('Ti'));
 
-// Challenge 9: Store the given string "When life gives you lemons make lemonade" in a variable and find whether it includes "lemon".
+// Challenge 9: Store the given string "When life gives you lemons make lemonade" in a variable and find whether it includes "lemon"
+j = 'When life gives you lemons make lemonade';
+console.log(j.includes('lemon'));
 
 // Challenge 10: Store the given string "You must be the change you wish to see in the world." in a variable and use slice to console log the word "change" and use substring method to console log the word "world".
+k = 'You must be the change you wish to see in the world.';
+console.log(k.slice(16, 23));
+console.log(k.substring(46, 51));
